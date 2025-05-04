@@ -15,7 +15,10 @@ const Index = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-fade-in');
-            entry.target.style.opacity = '1';
+            // Fix: Cast target to HTMLElement to access style property
+            if (entry.target instanceof HTMLElement) {
+              entry.target.style.opacity = '1';
+            }
           }
         });
       },
