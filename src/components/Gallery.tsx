@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Separator } from "@/components/ui/separator";
 import {
@@ -9,32 +8,32 @@ import {
 
 const galleryImages = [
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Interno del caffè Aurora',
     category: 'ambiente'
   },
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Preparazione di un cappuccino',
     category: 'drink'
   },
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Tavolino all\'aperto',
     category: 'ambiente'
   },
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1536935338788-846bb9981813?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Cocktail signature',
     category: 'drink'
   },
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1513267048331-5611cad62e41?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Clienti al bancone',
     category: 'clienti'
   },
   {
-    src: '/placeholder.svg',
+    src: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&q=80',
     alt: 'Un espresso perfetto',
     category: 'drink'
   },

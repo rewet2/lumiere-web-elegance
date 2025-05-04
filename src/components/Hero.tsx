@@ -8,7 +8,7 @@ const Hero = () => {
       id="home" 
       className="relative bg-cafe-darkbrown min-h-[85vh] flex items-center"
       style={{
-        backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/placeholder.svg")',
+        backgroundImage: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&auto=format&fit=crop&q=80")',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
